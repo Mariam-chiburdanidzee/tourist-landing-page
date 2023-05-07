@@ -116,11 +116,15 @@
 
 @media (max-width: 530px) {
     .video-tour-wrapper-top {
-        height: 60vh;
+        height: 70vh;
     }
 
     .video-tour-title .subtitle {
         font-size: 18px;
+    }
+
+    .tour-card>h4 {
+        text-transform: capitalize;
     }
 }
 
@@ -131,6 +135,8 @@
     }
 
 }
+
+
 
 /* email-wrapper */
 
@@ -144,7 +150,15 @@
     }
 
     .email-wrapper .email-title>h3 {
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .email-wrapper .email-title>p {
+        font-size: 16px;
+    }
+
+    .post-card {
+        justify-content: flex-end;
     }
 }
 
@@ -175,6 +189,7 @@
 
     .footer-wrapper-right>p {
         font-size: 20px;
+        text-align: center;
     }
 }
 
@@ -197,5 +212,9 @@
 
     .footer-form>input {
         padding: 7px 50px 10px 10px;
+    }
+
+    .footer-form {
+        flex-direction: column;
     }
 }

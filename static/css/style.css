@@ -367,6 +367,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
     column-gap: 30px;
+    margin-bottom: 50px;
 }
 
 .video-tour-wrapper-top:before {
@@ -607,10 +608,6 @@ video {
 .profile {
     gap: 18px;
     padding-top: 54px;
-}
-
-.post-card {
-    justify-content: space-around;
 }
 
 .traveler-name {
